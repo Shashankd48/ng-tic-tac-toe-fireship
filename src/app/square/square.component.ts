@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-square',
-  template: ` <p>{{ value }}</p> `,
+  template: ` <button>{{ value }}</button> `,
   styles: [],
 })
 export class SquareComponent {
